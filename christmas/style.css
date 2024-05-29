@@ -55,6 +55,7 @@ button{
 .back{
     border: 1px solid black;
     width: 130px;
+     height: 130px;
 }
 .btn{
     display: flex;
