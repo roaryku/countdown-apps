@@ -1,0 +1,163 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/5115083.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #020202;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas{
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.days, .hours, .minutes, .seconds{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.red{
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+button{
+    margin-left: 100px;
+    border: none;
+    margin-top: 40px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+  /* ---- stats.js ---- */
+
+  .particles-js{
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .particles-js{
+    position: relative;
+    -webkit-user-select: none;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+    height: 100vh;
+  }
+
+  @media all and (max-width: 800px){
+    #pictures{
+        width: 450px;
+        height: 550px;
+    }
+    h1{
+        font-size: 30px;
+        
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 500px){
+    h1{
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    #pictures{
+        width: 300px;
+        height: 450px;
+    }
+    .btn{
+        color: #f5f3f5;
+        
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        font-family: 'Noto Serif', serif;
+    }
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+@media all and (max-width: 800px) {
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+    }
+    button{
+        margin-left: 130px;
+    }
+    
+}
