@@ -52,6 +52,16 @@ button{
     border: none;
     margin-top: 40px;
 }
+.back{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 60px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* ---- particles.js container ---- */
 

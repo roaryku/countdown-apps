@@ -73,6 +73,10 @@ button{
   border: none;
   background-color: rgba(255,255,255, 0.3);
 }
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
 .red{
   background-color: #b01930;
 }
