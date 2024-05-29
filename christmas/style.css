@@ -48,19 +48,17 @@ h3{
     color: red;
 }
 button{
-    margin-left: 100px;
+    margin: 20px;
     border: none;
     margin-top: 40px;
 }
 .back{
     border: 1px solid black;
-    width: 60px;
-    height: 60px;
-    margin: 60px;
+    width: 130px;
 }
 .btn{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
